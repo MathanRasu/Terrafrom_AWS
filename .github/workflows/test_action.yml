@@ -1,0 +1,11 @@
+  name:  testRepo
+  on:  push
+
+  jobs:
+    hello:
+      runs-on:  ubuntu-latest
+
+      steps:
+        - name: print test
+          run:  echo "Print testing"
+    
